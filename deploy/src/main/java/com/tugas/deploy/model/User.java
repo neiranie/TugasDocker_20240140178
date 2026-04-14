@@ -11,7 +11,6 @@ public class User {
         this.jenisKelamin = jenisKelamin;
     }
 
-    // Getter & Setter
     public String getNama() {
         return nama;
     }
