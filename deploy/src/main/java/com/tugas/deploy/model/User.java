@@ -11,27 +11,12 @@ public class User {
         this.jenisKelamin = jenisKelamin;
     }
 
-    public String getNama() {
-        return nama;
-    }
+    public String getNama() { return nama; }
+    public void setNama(String nama) { this.nama = nama; }
 
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
+    public String getNim() { return nim; }
+    public void setNim(String nim) { this.nim = nim; }
 
-    public String getNim() {
-        return nim;
-    }
-
-    public void setNim(String nim) {
-        this.nim = nim;
-    }
-
-    public String getJenisKelamin() {
-        return jenisKelamin;
-    }
-
-    public void setJenisKelamin(String jenisKelamin) {
-        this.jenisKelamin = jenisKelamin;
-    }
+    public String getJenisKelamin() { return jenisKelamin; }
+    public void setJenisKelamin(String jenisKelamin) { this.jenisKelamin = jenisKelamin; }
 }
